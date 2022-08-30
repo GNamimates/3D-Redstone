@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench and Made by GNamimates",
+	"textures": {
+		"0": "redstone/dust",
+		"particle": "redstone/dust"
+	},
+	"elements": [
+		{
+			"from": [0.50092, 0, 6.71967],
+			"to": [13.46967, 1.98, 10.71967],
+			"rotation": {"angle": 45, "axis": "y", "origin": [-0.20221, 0, 9.96967]},
+			"faces": {
+				"north": {"uv": [0, 6, 12.96875, 8.01], "texture": "#0", "tintindex": 1},
+				"east": {"uv": [0, 0, 4, 2.01], "texture": "#0", "tintindex": 1},
+				"south": {"uv": [0, 4, 12.96875, 6.01], "texture": "#0", "tintindex": 1},
+				"west": {"uv": [0, 2, 4, 4.01], "texture": "#0", "tintindex": 1},
+				"up": {"uv": [0, 8.03125, 12.96875, 12.03125], "rotation": 180, "texture": "#0", "tintindex": 1},
+				"down": {"uv": [0, 12, 12.96875, 16], "texture": "#0", "tintindex": 1}
+			}
+		}
+	]
+}
