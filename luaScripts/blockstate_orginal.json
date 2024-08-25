@@ -1,0 +1,288 @@
+{
+   "multipart": [
+      {
+         "when": {
+            "north": "none",
+            "east": "none",
+            "south": "none",
+            "west": "none"
+         },
+         "apply": {
+            "model": "minecraft:redstone/dot"
+         }
+      },
+      {
+         "when": {
+            "OR": [{
+                  "north": "side",
+                  "east": "side",
+                  "south": "side",
+                  "west": "side"
+               },
+               {
+                  "north": "side",
+                  "south": "side",
+                  "east": "none",
+                  "west": "none"
+               },
+               {
+                  "north": "side",
+                  "south": "side",
+                  "east": "none",
+                  "west": "side"
+               },
+               {
+                  "north": "side",
+                  "south": "side",
+                  "east": "side",
+                  "west": "none"
+               }
+            ]
+         },
+         "apply": {
+            "model": "minecraft:redstone/line",
+            "y" : 180
+         }
+      },
+      {
+         "when": {
+            "OR": [{
+                  "north": "side",
+                  "east": "side",
+                  "south": "side",
+                  "west": "side"
+               },
+               {
+                  "north": "none",
+                  "east": "side",
+                  "south": "none",
+                  "west": "side"
+               },
+               {
+                  "north": "side",
+                  "east": "side",
+                  "south": "none",
+                  "west": "side"
+               },
+               {
+                  "north": "none",
+                  "east": "side",
+                  "south": "side",
+                  "west": "side"
+               }
+            ]
+         },
+         "apply": {
+            "model": "minecraft:redstone/line1",
+            "y": 270
+         }
+      },
+
+      {
+         "when": {
+            "north": "side",
+            "west": "side",
+            "south": "none",
+            "east": "none"
+         },
+         "apply": {
+            "model": "minecraft:redstone/curve",
+            "y": 0
+         }
+      },
+      {
+         "when": {
+            "north": "side",
+            "east": "side",
+            "south": "none",
+            "west": "none"
+         },
+         "apply": {
+            "model": "minecraft:redstone/curve",
+            "y": 90
+         }
+      },
+      {
+         "when": {
+            "north": "none",
+            "east": "side",
+            "south": "side",
+            "west": "none"
+         },
+         "apply": {
+            "model": "minecraft:redstone/curve1",
+            "y": 180
+         }
+      },
+      {
+         "when": {
+            "north": "none",
+            "east": "none",
+            "south": "side",
+            "west": "side"
+         },
+         "apply": {
+            "model": "minecraft:redstone/curve1",
+            "y": 270
+         }
+      }, 
+
+      {
+         "when": {
+            "OR": [
+               {"east": "up","north": "side"},
+               {"south": "up","north": "side"},
+               {"west": "up","north": "side"}
+            ]
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_up_short1",
+            "y": 0
+         }
+      },
+      {
+         "when": {
+            "OR": [
+               {"north": "up","east": "side"},
+               {"south": "up","east": "side"},
+               {"west": "up","east": "side"}
+            ]
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_up_short1",
+            "y": 90
+         }
+      },
+      {
+         "when": {
+            "OR": [
+               {"north": "up","south": "side"},
+               {"east": "up","south": "side"},
+               {"west": "up","south": "side"}
+            ]
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_up_short",
+            "y": 180
+         }
+      },
+      {
+         "when": {
+            "OR": [
+               {"north": "up","west": "side"},
+               {"east": "up","west": "side"},
+               {"south": "up","west": "side"}
+            ]
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_up_short",
+            "y": 270
+         }
+      },
+
+
+      
+      {
+         "when": {
+            "OR": [
+               {"north": "up"},
+               {"north": "up"},
+               {"north": "up"}
+            ]
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_down",
+            "y": 0
+         }
+      },
+      {
+         "when": {
+            "OR": [
+               {"east": "up"},
+               {"east": "up"},
+               {"east": "up"}
+            ]
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_down",
+            "y": 90
+         }
+      },
+      {
+         "when": {
+            "OR": [
+               {"south": "up"},
+               {"south": "up"},
+               {"south": "up"}
+            ]
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_down1",
+            "y": 180
+         }
+      },
+      {
+         "when": {
+            "OR": [
+               {"west": "up"},
+               {"west": "up"},
+               {"west": "up"}
+            ]
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_down1",
+            "y": 270
+         }
+      },
+      
+
+      {
+         "when": {
+            "north": "side",
+            "east": "side",
+            "south": "none",
+            "west": "side"
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_short",
+            "y": 0
+         }
+      },
+      {
+         "when": {
+            "north": "side",
+            "east": "side",
+            "south": "side",
+            "west": "none"
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_short",
+            "y": 90
+         }
+      },
+      {
+         "when": {
+            "north": "none",
+            "east": "side",
+            "south": "side",
+            "west": "side"
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_short1",
+            "y": 180
+         }
+      },
+      {
+         "when": {
+            "north": "side",
+            "east": "none",
+            "south": "side",
+            "west": "side"
+         },
+         "apply": {
+            "model": "minecraft:redstone/line_short1",
+            "y": 270
+         }
+      }
+   ]
+}

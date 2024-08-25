@@ -1,0 +1,17 @@
+{
+	"credit": "Made by auriafoxgirl",
+	"textures": {
+		"0": "redstone/dust_redstone_level_0",
+		"particle": "redstone/dust_redstone_level_0"
+	},
+	"elements": [
+		{
+			"from": [5.42855, 2.02, 6],
+			"to": [10.57141, 2.02, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2.02, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 9, 7], "texture": "#0"}
+			}
+		}
+	]
+}
