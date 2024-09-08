@@ -1,6 +1,6 @@
 {
     "pack": {
       "pack_format": 9,
-      "description": "§7Turns all Redstone Wires into Wires, By §4G§cN§fa§cm§fi§cmat§4es"
+      "description": [{"text":""},{"text":"Makes Wires connected in 3D\n"},{"text":"By "},{"text":"GNanimates","color":"#58c34e"},{"text":" & "},{"text":"Auriafoxgirl","color":"#ff7dbe"}]
     }
 }
