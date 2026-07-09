@@ -1,0 +1,9 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "redstone",
+            "prefix": "redstone/"
+        }
+    ]
+}
